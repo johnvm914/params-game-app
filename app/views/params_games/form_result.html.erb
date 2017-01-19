@@ -1,0 +1,4 @@
+<p><%= @message %></p>
+<% if @guess != @answer %>
+  <h1><%= link_to "Try again!", '/param_number' %></h1>
+<% end %>
